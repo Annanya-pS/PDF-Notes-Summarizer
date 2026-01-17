@@ -1,4 +1,4 @@
-# PDF / Notes Summarizer (AIpipe)
+# PDF / Notes Summarizer
 
 ## Overview
 This project is a text-based PDF summarizer built using Python, Streamlit, and a Large Language Model accessed via AIpipe.org.  
@@ -44,3 +44,4 @@ PDF Upload -> Text Extraction (PyPDF) -> Chunking with Overlap -> LLM Call per C
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
